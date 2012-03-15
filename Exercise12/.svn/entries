@@ -1,0 +1,84 @@
+10
+
+dir
+0
+https://pointabout.unfuddle.com/svn/pointabout_personal/asd/Exercise12/Exercise12
+https://pointabout.unfuddle.com/svn/pointabout_personal
+add
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+be4316dc-696f-4caf-acd9-8e620f15692c
+
+Exercise12ViewController.h
+file
+
+
+
+add
+
+main.m
+file
+
+
+
+add
+
+Exercise12AppDelegate.m
+file
+
+
+
+add
+
+Exercise12ViewController.m
+file
+
+
+
+add
+
+en.lproj
+dir
+
+
+
+add
+
+Exercise12AppDelegate.h
+file
+
+
+
+add
+
+Exercise12-Info.plist
+file
+
+
+
+add
+
+Exercise12-Prefix.pch
+file
+
+
+
+add
+
