@@ -22,6 +22,8 @@ int i = 0;
     [label1 release];
     [label2 release];
     [activityIndicator release];
+    [thread release];
+    [timer release];
     [super dealloc];
 }
 
@@ -35,13 +37,14 @@ int i = 0;
 
 #pragma mark - View lifecycle
 
-/*
+
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    [activityIndicator setHidden:YES];
 }
-*/
+
 
 - (void)viewDidUnload
 {
@@ -65,10 +68,12 @@ int i = 0;
 	} while (i<=1999999999); 
     thread = nil;
     i = 0;
-	[activityIndicator stopAnimating]; 
+	[activityIndicator stopAnimating];
+    [activityIndicator setHidden:YES];
 } 
 
 - (IBAction)startRepeatingTask:(id)sender {
+    [activityIndicator setHidden:NO];
     [activityIndicator startAnimating]; 
 	
 	if(thread == nil) 
